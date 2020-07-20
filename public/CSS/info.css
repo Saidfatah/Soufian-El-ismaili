@@ -16,7 +16,13 @@
     overflow: hidden;
 }
 
-
+.name__intro{
+    color: var(--colorPrimary);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
 .name{
     margin-bottom: 1rem;
     color: #fff;

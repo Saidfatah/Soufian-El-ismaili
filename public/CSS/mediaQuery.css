@@ -1,0 +1,9 @@
+@media all and (max-width :700px){
+    .flex{
+        flex-direction: column;
+    }
+    .event__info p {
+        text-justify: newspaper;
+        width: 340px;
+    }
+}
