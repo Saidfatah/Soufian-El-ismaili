@@ -1,0 +1,99 @@
+:root{
+   --colorPrimary:#2b3769;
+   --colorAccent:#05aed4;
+   --colorGrey:rgb(146, 146, 146);
+   --colorDarkGrey:#656565;
+   --colorShadow:rgba(36, 34, 134, 0.247);
+   --colorLightGrey:#ebebeb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.container{
+}
+
+.emphasize{
+    font-weight: 600;
+}
+
+button{
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .4s ease-in;
+    position: relative;
+    color: #fff;
+    border: 1px solid var(--colorPrimary);
+    font-size: 1.2rem;
+    z-index:9;
+    position: relative;
+    overflow: hidden;
+}
+button::after{
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
+    background-image: linear-gradient(to right, var(--colorAccent), var(--colorPrimary));
+}
+
+button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+.p1{
+    padding: 1rem;
+}
+.p2{
+    padding: 2rem;
+}
+.p3{
+    padding: 3rem;
+}
+
+
+.mgt1{
+    margin-top: 1rem;
+}
+.mgt2{
+    margin-top: 2rem;
+}
