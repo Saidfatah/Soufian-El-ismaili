@@ -14,7 +14,7 @@
 
 .intro__block h2:not(.competence__title){
     color: var(--colorPrimary);
-    margin-bottom: 1rem;
+
     font-weight: 100;
 }
 

@@ -1,6 +1,6 @@
 :root{
-   --colorPrimary:#2b3769;
-   --colorAccent:#05aed4;
+   --colorPrimary:#342b69;
+   --colorAccent:#18f38d;
    --colorGrey:rgb(146, 146, 146);
    --colorDarkGrey:#656565;
    --colorShadow:rgba(36, 34, 134, 0.247);
@@ -18,6 +18,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 100%;
+    background-color: var(--colorLightGrey);
 }
 
 
