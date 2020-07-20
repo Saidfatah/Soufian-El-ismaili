@@ -43,7 +43,7 @@
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid #fff;
-
+    box-shadow: 0px 0px 10px 3px var(--colorShadow);
 }
 .intro__image:hover .qoute{
     left: 50%;
