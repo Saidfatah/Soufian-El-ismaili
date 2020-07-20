@@ -9,12 +9,14 @@
 }
 .intro__block {
    padding: 0 2rem;
+   position: relative;
+   z-index: 99;
    margin-bottom: 2rem;
 }
 
 .intro__block h2:not(.competence__title){
     color: var(--colorPrimary);
-
+    letter-spacing: 2px;
     font-weight: 100;
 }
 
@@ -29,6 +31,9 @@
         margin: 0 .5rem;
 }
 
+.background{
+    position: absolute;
+}
 .intro__image{
     position: relative;
     margin-right: 5rem;

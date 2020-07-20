@@ -31,6 +31,8 @@
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 100;
+    position: relative;
+    z-index: 99;
     text-align: center;
 }
 .name{
@@ -46,6 +48,8 @@
 .formation__title{
     position: relative;
     z-index: 9;
+    font-weight: 300;
+    letter-spacing: 5px;
     margin-bottom: 1rem;
     transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -68,6 +72,7 @@
    font-size: .9rem;
 }
 .event__info h2{
+    letter-spacing: 2px;
    font-size: 1rem;
 }
 
@@ -131,4 +136,7 @@
 .social i{
     color: #fff;
     font-size: 2rem;
+}
+.social i:hover{
+    color:var(--colorPrimary)
 }
