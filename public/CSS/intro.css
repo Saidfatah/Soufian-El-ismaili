@@ -1,5 +1,5 @@
 .intro{
-    flex: 2;
+    flex: 1;
     flex-direction: column;
     background-color: var(--colorLightGrey);
 }

@@ -1,7 +1,8 @@
 :root{
-   --colorPrimary:#342b69;
+   --colorPrimary:#2500fa;
    --colorAccent:#18f38d;
-   --colorGrey:rgb(146, 146, 146);
+   --colorBlack:#000;
+   --colorGrey:#e6e6e6;
    --colorDarkGrey:#656565;
    --colorShadow:rgba(36, 34, 134, 0.247);
    --colorLightGrey:#ebebeb;
