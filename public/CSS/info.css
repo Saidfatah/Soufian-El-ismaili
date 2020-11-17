@@ -169,3 +169,16 @@ font-size: .9rem;
     font-size: .8rem;
     color: var(--colorGrey);
 }
+
+
+@media screen and (min-width: 600px) {
+    .event__info p{
+     
+        MAX-WIDTH: 100%;
+     }
+     .event__info h2{
+
+        max-width:  100%;
+      
+     }
+  }
