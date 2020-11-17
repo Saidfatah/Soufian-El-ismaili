@@ -51,6 +51,7 @@
     position: relative;
     z-index: 9;
     font-size: 1.2rem;
+    margin-bottom: 1rem;
     font-weight: 300;
     letter-spacing: 5px;
     transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -72,16 +73,23 @@
 .event__info p{
    color: var(--colorBlack);
    font-size: .9rem;
+   MAX-WIDTH: 450px;
+    text-align: justify;
 }
 .event__info h2{
-    letter-spacing: 2px;
+  letter-spacing: 2px;
    font-size: 1rem;
+   margin-bottom: .5rem;
+   max-width: 500px;
+   padding-right: 1rem;
+   font-weight: 600;
 }
 
 .event__duration{
   font-weight: 600;
   color: var(--colorBlack);
   font-size: .7rem;
+  width: 65px;
 }
 
 .event__dot{
@@ -101,6 +109,18 @@
     background-color: var(--colorBlack);
 
  
+}
+
+.event__info__list{
+
+}
+.event__info__list__item{
+color: var(--colorBlack);
+font-size: .9rem;
+
+}
+.event__info__list__item i{
+    color: var( --colorGreen);
 }
 
 
