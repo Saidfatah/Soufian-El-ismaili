@@ -80,13 +80,14 @@
 
 .event__duration{
   font-weight: 600;
-  font-size: .9rem;
+  color: var(--colorBlack);
+  font-size: .7rem;
 }
 
 .event__dot{
     position: relative;
     border-radius: 50%;
-    background-color: var(--colorPrimary);
+    background-color: var(--colorBlack);
     width: 20px;
     height: 20px;
     margin-top: .25rem;
@@ -96,9 +97,9 @@
 
 }
 .event__dot:hover{
-    transform: scale(1.1);
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
-    background-image: linear-gradient(to bottom, var(--colorAccent), var(--colorPrimary));
+    transform: scale(1.05);
+    background-color: var(--colorBlack);
+
  
 }
 
@@ -109,8 +110,7 @@
     left:66px;
     top: 10px;
     width: 3px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
-    background-image: linear-gradient(to top, var(--colorAccent), var(--colorPrimary));
+    background-color: var(--colorBlack);
     animation: lineSlideIn 1s forwards ease-out;
 }
 
