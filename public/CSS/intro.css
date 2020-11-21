@@ -146,3 +146,19 @@
 .competence__list p{
    margin-right: 1rem;
 }
+
+
+.formation__block ul {
+    padding:0 1rem;
+
+}
+.formation__block ul li {
+    color: var(--colorBlack);
+    line-height: 1.2em;
+    font-weight: bold;
+    
+}
+.formation__block:last-child{  
+    margin-bottom: 0;
+    background-color: red;
+}
