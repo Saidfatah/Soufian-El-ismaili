@@ -111,7 +111,8 @@
 .contact__info__entry{
     margin-bottom: .25rem;
     text-transform: uppercase;
-    font-size: .9rem;
+    font-size: .8rem;
+    display: flex;
 
 }
 .contact__info__entry:last-child{
@@ -141,24 +142,30 @@
 .competence__list{
    color: var(--colorDarkGrey);
    font-size: .9rem;
-   display: flex;
 }
 .competence__list p{
    margin-right: 1rem;
 }
 
 
-.formation__block ul {
-    padding:0 1rem;
 
+.name__intro ,.bio__intro{
+    color: var(--colorPrimary);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+    position: relative;
+    z-index: 99;
+    text-align: center;
 }
-.formation__block ul li {
-    color: var(--colorBlack);
-    line-height: 1.2em;
+.name{
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+}
+.bio__intro{
+    font-size: 1rem;
     font-weight: bold;
-    
-}
-.formation__block:last-child{  
-    margin-bottom: 0;
-    background-color: red;
 }

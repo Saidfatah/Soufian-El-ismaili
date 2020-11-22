@@ -3,9 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:var(--colorPrimary);
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
-    background-image: linear-gradient(to top, var(--colorAccent), var(--colorPrimary));
+   
    position: relative;
    overflow: hidden;
 }
@@ -16,8 +14,7 @@
     top: 0;
 }
 .formation__block{
-    color:var(--colorPrimary);
-    background-color: #fff;
+
     width: 100%;
     position: relative;
     border-radius: 15px;
@@ -25,25 +22,7 @@
     box-shadow: 0px 0px 10px 3px var(--colorShadow);
     overflow: hidden;
 }
-.event__sujet{
-    font-weight: 800;
-}
-.name__intro{
-    color: var(--colorPrimary);
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    font-weight: 100;
-    position: relative;
-    z-index: 99;
-    text-align: center;
-}
-.name{
-    margin-bottom: 1rem;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 100;
-    text-align: center;
-}
+
 .formation__timeLine{
     position: relative;
 }
@@ -71,7 +50,6 @@
    width:600px;
 }
 .event__info p{
-   color: var(--colorBlack);
    font-size: .9rem;
    MAX-WIDTH: 450px;
     text-align: justify;
@@ -87,7 +65,6 @@
 
 .event__duration{
   font-weight: 600;
-  color: var(--colorBlack);
   font-size: .7rem;
   width: 65px;
 }
@@ -95,7 +72,6 @@
 .event__dot{
     position: relative;
     border-radius: 50%;
-    background-color: var(--colorBlack);
     width: 20px;
     height: 20px;
     margin-top: .25rem;
@@ -111,16 +87,10 @@
  
 }
 
-.event__info__list{
 
-}
 .event__info__list__item{
 color: var(--colorBlack);
-font-size: .9rem;
 
-}
-.event__info__list__item i{
-    color: var( --colorGreen);
 }
 
 
@@ -130,7 +100,6 @@ font-size: .9rem;
     left:66px;
     top: 10px;
     width: 3px;
-    background-color: var(--colorBlack);
     animation: lineSlideIn 1s forwards ease-out;
 }
 
@@ -157,19 +126,28 @@ font-size: .9rem;
    margin-right: 1rem;
 }
 .social i{
-    color: #fff;
     font-size: 2rem;
 }
-.social i:hover{
-    color:var(--colorPrimary)
-}
+
 
 
 .company_name{
     font-size: .8rem;
-    color: var(--colorGrey);
 }
 
+
+.formation__block ul {
+    padding:0 1rem;
+
+}
+.formation__block ul li {
+    line-height: 1.2em;
+    font-weight: bold;
+    
+}
+.formation__block:last-child{  
+    margin-bottom: 0;
+}
 
 @media screen and (min-width: 600px) {
     .event__info p{

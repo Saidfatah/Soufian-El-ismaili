@@ -1,0 +1,38 @@
+/* all  */
+p{
+    color: var(--colorDarkGrey);
+}
+
+/* intro texts  */
+.bio__intro {
+    color: var(--colorPrimary);
+  
+}
+.name__intro{
+    color: var(--colorPrimary);
+}
+.intro__block h2:not(.competence__title) {
+    color: var(--colorPrimary);
+
+}
+
+.contact__info__entry span {
+    color: var(--colorDarkGrey);
+}
+.competence__list p {
+    color: var(--colorDarkGrey);
+
+}
+
+/* info  */
+.event__info h2 {
+    color: var(--colorDarkGrey);
+
+}
+.company_name {
+    color: var(--colorGrey);
+}
+
+.event__duration {
+    color: var(--colorBlack);
+}

@@ -1,8 +1,8 @@
 :root{
-   --colorPrimary:#2500fa;
-   --colorAccent:#18f38d;
-   --colorGreen:#18f38d;
-   --colorBlack:#000;
+   --colorPrimary:#2e2749;
+   --colorAccent:#f3d218;
+   --colorGreen:#f3d918;
+   --colorBlack:rgb(28, 26, 26);
    --colorGrey:#717171;
    --colorDarkGrey:#656565;
    --colorShadow:rgba(36, 34, 134, 0.247);
@@ -72,6 +72,9 @@ button:focus{
 }
 
 
+.bold{
+    font-weight: bold;
+}
 
 
 
