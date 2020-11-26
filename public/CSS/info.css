@@ -134,8 +134,7 @@
 }
 .formation__block ul li {
     line-height: 1.2em;
-    font-weight: bold;
-    
+    font-size: .9rem;
 }
 .formation__block:last-child{  
     margin-bottom: 0;

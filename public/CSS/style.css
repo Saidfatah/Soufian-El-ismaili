@@ -5,7 +5,7 @@
    --colorBlack:rgb(28, 26, 26);
    --colorGrey:#717171;
    --colorDarkGrey:#656565;
-   --colorShadow:rgba(36, 34, 134, 0.247);
+   --colorShadow:rgba(58, 58, 58, 0.247);
    --colorLightGrey:#ebebeb;
 }
 @font-face {
@@ -75,7 +75,9 @@ button:focus{
 
 
 
-
+p , li, span {
+    letter-spacing: 1.25px;    
+}
 
 
 

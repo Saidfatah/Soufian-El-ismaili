@@ -14,6 +14,12 @@ button::after{
 /* #endregion*/
 
 /*#region intro  */
+
+.skill{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 1px var(--colorShadow);
+    color: var(--colorPrimary);
+}
 .intro{
     background-color: var(--colorLightGrey);
 }

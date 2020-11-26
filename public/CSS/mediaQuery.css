@@ -1,7 +1,9 @@
-@media all and  (min-width:700px){
+@media all and  (min-width:702px){
     .background {
          width: fit-content;  
     }
+}
+
 @media all and (max-width :700px) and (min-width:460px){
     .flex{
         flex-direction: column;
@@ -18,7 +20,12 @@
     }
 }
 
+@media all and (max-width:444px){
+    .flex{
+        flex-direction: column;
+    }
 
+}
 @media all and (max-width :460px) and (min-width:411px){
     .flex{
         flex-direction: column;
