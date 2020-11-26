@@ -1,4 +1,4 @@
-@media all and (max-width :700px){
+@media all and (max-width :700px) and (min-width:460px){
     .flex{
         flex-direction: column;
     }
@@ -13,14 +13,36 @@
         letter-spacing: 1px;
     }
 }
+
+
+@media all and (max-width :460px) and (min-width:411px){
+    .flex{
+        flex-direction: column;
+    }
+    .event__info p {
+        text-justify: newspaper;
+        width: 250px;
+    }
+    .formation__title{
+        text-align: center;
+    }
+    .event__info h2 {
+        letter-spacing: 1px;
+        width: 250px;
+    }
+
+}
+
+
 @media all and (max-width :411px){
+    .flex{
+        flex-direction: column;
+    }
     .intro__image{
         width: 100px;
         height: 100px;
         border-width: 1px;
     }
-
-
 
     .event__info p {
         text-justify: newspaper;
@@ -28,6 +50,71 @@
     }
     .event__info h2 {
         letter-spacing: 0px;
+        width: 230px;
+    }
+    .timeLine__event {
+        width: 650px;
+    }
+    .line{
+        left: 42px;
+    }
+    .event__dot {
+        width: 15px;
+        height: 15px;
+    }
+    .background {
+        width: 100%;
+    }
+}
+@media all and (max-width :375px){
+    .flex{
+        flex-direction: column;
+    }
+    .intro__image{
+        width: 100px;
+        height: 100px;
+        border-width: 1px;
+    }
+
+    .event__info p {
+        text-justify: newspaper;
+        width:220px;
+    }
+    .event__info h2 {
+        letter-spacing: 0px;
+        width:220px;
+    }
+    .timeLine__event {
+        width: 650px;
+    }
+    .line{
+        left: 42px;
+    }
+    .event__dot {
+        width: 15px;
+        height: 15px;
+    }
+    .background {
+        width: 100%;
+    }
+}
+@media all and (max-width :320px){
+    .flex{
+        flex-direction: column;
+    }
+    .intro__image{
+        width: 100px;
+        height: 100px;
+        border-width: 1px;
+    }
+
+    .event__info p {
+        text-justify: newspaper;
+        width: 180px;
+    }
+    .event__info h2 {
+        letter-spacing: 0px;
+        width: 180px;
     }
     .timeLine__event {
         width: 650px;

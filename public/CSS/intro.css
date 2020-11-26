@@ -1,7 +1,6 @@
 .intro{
     flex: 1;
     flex-direction: column;
-    background-color: var(--colorLightGrey);
 }
 .intro__content {
         flex-direction: column;
@@ -15,7 +14,6 @@
 }
 
 .intro__block h2:not(.competence__title){
-    color: var(--colorPrimary);
     letter-spacing: 2px;
     font-weight: 100;
 }
@@ -33,13 +31,13 @@
 
 .background{
     position: absolute;
+    width: 100%;
 }
 .intro__image{
     position: relative;
-    margin-right: 5rem;
     width: 200px;
     height: 200px;
-    margin: 0 auto;
+    margin: 1rem auto;
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid #fff;
@@ -59,12 +57,10 @@
     font-size: 1rem;
     text-align: center;
     left: -100%;
-    color: #fff;
     transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
     transform: translate(-50%, -50%);
 }
 .qoute:before {
-    color: #fff;
     content: open-quote;
     font-size: 1.5rem;
     line-height: 0.1em;
@@ -72,13 +68,12 @@
     vertical-align: -0.2em;
   }
 .qoute:after {
-    color: #fff;
     content: close-quote;
     font-size: 1.5rem;
     line-height: 0.1em;
     margin-left: 0.25em;
     vertical-align: -0.6em;
-  }
+}
 
 .intro__image::after{
     position: absolute;
@@ -90,15 +85,11 @@
     top: 0;
     z-index: 0;
     transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
-
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
-    background-image: linear-gradient(to top, var(--colorAccent), var(--colorPrimary));
 }
 .intro__image img{
     position: absolute;
     top: 55%;
     left: 50%;
-    background-image: linear-gradient(to top, rgba(4,4,4,0.65), rgba(54,54,54,0.2));
     transform: translate(-50%,-50%);
     width: 105%;
 }
@@ -118,13 +109,9 @@
 .contact__info__entry:last-child{
     margin-bottom:0;
 }
-.contact__info__entry span{
-   color:var(--colorDarkGrey)
 
-}
 .contact__info__entry i{
     margin-right:.5rem ;
-    color:var(--colorAccent);
 }
 
 
@@ -134,13 +121,11 @@
 }
 
 .competence__title{
-    color: var(--colorAccent);
     font-size: .98rem;
     font-weight: 100;
 }
 
 .competence__list{
-   color: var(--colorDarkGrey);
    font-size: .9rem;
 }
 .competence__list p{
@@ -150,7 +135,6 @@
 
 
 .name__intro ,.bio__intro{
-    color: var(--colorPrimary);
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 100;
@@ -160,7 +144,6 @@
 }
 .name{
     margin-bottom: 1rem;
-    color: #fff;
     font-size: 2rem;
     font-weight: 100;
     text-align: center;

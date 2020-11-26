@@ -1,19 +1,40 @@
-/* all  */
+/* #region all  */
 p{
     color: var(--colorDarkGrey);
 }
 
-/* intro texts  */
+button{
+    color: #fff;
+    border: 1px solid var(--colorPrimary);
+}
+button::after{
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
+    background-image: linear-gradient(to right, var(--colorAccent), var(--colorPrimary));
+}
+/* #endregion*/
+
+/*#region intro  */
+.intro{
+    background-color: var(--colorLightGrey);
+}
+
+.intro__block h2:not(.competence__title){
+    color: var(--colorPrimary);
+}
+
+
+.qoute,.qoute:after,.qoute:before {
+    color: #fff;
+}
+
 .bio__intro {
     color: var(--colorPrimary);
-  
 }
 .name__intro{
     color: var(--colorPrimary);
 }
 .intro__block h2:not(.competence__title) {
     color: var(--colorPrimary);
-
 }
 
 .contact__info__entry span {
@@ -21,10 +42,57 @@ p{
 }
 .competence__list p {
     color: var(--colorDarkGrey);
-
 }
 
-/* info  */
+.contact__info__entry span{
+    color:var(--colorDarkGrey)
+ 
+ }
+ .contact__info__entry i{
+     color:var(--colorAccent);
+ }
+ 
+ .competence__title{
+    color: var(--colorAccent);
+ 
+}
+
+.competence__list{
+   color: var(--colorDarkGrey);
+}
+
+.name__intro ,.bio__intro{
+    color: var(--colorPrimary);
+}
+.name{
+    color: #fff;
+}
+
+
+.intro__image::after{
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
+    background-image: linear-gradient(to top, var(--colorAccent), var(--colorPrimary));
+}
+.intro__image img{
+    background-image: linear-gradient(to top, rgba(4,4,4,0.65), rgba(54,54,54,0.2));
+}
+/* #endregion*/
+
+
+/* #region  info  */
+
+.formation{
+    color:var(--colorPrimary);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
+    background-image: linear-gradient(to top, var(--colorAccent), var(--colorPrimary));
+}
+
+.formation__block{
+    color:var(--colorPrimary);
+    background-color: #fff;
+}
+
+
 .event__info h2 {
     color: var(--colorDarkGrey);
 
@@ -36,3 +104,79 @@ p{
 .event__duration {
     color: var(--colorBlack);
 }
+
+
+.event__dot {
+    background-color: var(--colorBlack);
+}
+
+.formation__block ul li {
+    color: var(--colorBlack);
+ 
+}
+
+.formation__title {
+    color: var(--colorPrimary);
+
+}
+
+.company_name{
+    color: var(--colorGrey);
+}
+
+
+.event__info__list__item{
+    color: var(--colorBlack);
+}
+.event__info__list__item i{
+    color: var( --colorGreen);  
+}
+.event__info p{
+    color: var(--colorBlack);
+
+ }
+
+ .event__duration{
+    color: var(--colorBlack);
+}
+
+.event__dot:hover{
+    background-color: var(--colorBlack);
+}
+.event__info__list__item{
+color: var(--colorBlack);
+
+}
+
+/* icons */
+.event__info__list__item i {
+    color: var( --colorGreen);
+}
+.contact__info__entry i {
+  
+    color: var(--colorAccent);
+}
+.social i{
+    color: #fff;
+}
+.social i:hover{
+    color:var(--colorPrimary)
+}
+
+
+
+
+/* #endregion*/
+
+
+/* #region timeline */
+.line{
+    background-color: var(--colorBlack);
+}
+.event__dot:hover{
+    background-color: var(--colorBlack);
+}
+.event__dot{
+    background-color: var(--colorBlack);
+}
+/* #endregion*/

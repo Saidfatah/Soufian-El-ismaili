@@ -82,16 +82,8 @@
 }
 .event__dot:hover{
     transform: scale(1.05);
-    background-color: var(--colorBlack);
-
- 
 }
 
-
-.event__info__list__item{
-color: var(--colorBlack);
-
-}
 
 
 .line{
