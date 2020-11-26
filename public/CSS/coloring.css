@@ -89,8 +89,8 @@ button::after{
 
 .formation{
     color:var(--colorPrimary);
-    background-image: -webkit-gradient(linear, left bottom, left top, from(var(--colorAccent)), to(var(--colorPrimary))); 
-    background-image: linear-gradient(to top, var(--colorAccent), var(--colorPrimary));
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,92,144,1) 100%, rgba(46,39,73,1) 100%);
 }
 
 .formation__block{
