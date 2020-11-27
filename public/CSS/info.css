@@ -52,7 +52,7 @@
 .event__info p{
    font-size: .9rem;
    MAX-WIDTH: 450px;
-    text-align: justify;
+    text-align: left;
 }
 .event__info h2{
   letter-spacing: 2px;

@@ -9,7 +9,7 @@
         flex-direction: column;
     }
     .event__info p {
-        text-justify: newspaper;
+        text-justify: left;
         width: 340px;
     }
     .formation__title{
@@ -31,7 +31,7 @@
         flex-direction: column;
     }
     .event__info p {
-        text-justify: newspaper;
+        text-justify: left;
         width: 250px;
     }
     .formation__title{
@@ -56,7 +56,7 @@
     }
 
     .event__info p {
-        text-justify: newspaper;
+        text-justify: left;
         width:300px;
     }
     .event__info h2 {
@@ -88,7 +88,7 @@
     }
 
     .event__info p {
-        text-justify: newspaper;
+        text-justify: left;
         width:220px;
     }
     .event__info h2 {
@@ -120,7 +120,7 @@
     }
 
     .event__info p {
-        text-justify: newspaper;
+        text-justify: left;
         width: 180px;
     }
     .event__info h2 {
