@@ -1,6 +1,13 @@
 const formation__timeLine= Array.from(document.querySelectorAll('.formation__timeLine'))
 const btn = document.querySelector('#btn')
 
+
+const recursiveOffsetLeft= (elemnt, accumalted)=>
+{
+
+}
+
+
 formation__timeLine.forEach((e,i)=>{
     const dot  = e.querySelector('.event__dot')
     const line = e.querySelector('.line')
